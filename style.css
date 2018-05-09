@@ -1,0 +1,60 @@
+/*
+ Theme Name:    Flash Demoified
+ Theme URI:    http://example.com/flash_child/
+ Description:  Flash Child Theme
+ Author:       Demoify
+ Author URI:   http://example.com
+ Template:    flash
+ Version:      1.1.9
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 8Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain: Flash child
+*/
+
+/* Customization starts from here*/
+
+.center-logo-below-menu .header-bottom .site-navigation-wrapper {
+    display: -webkit-box;
+    background-color: #AECE89;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#site-navigation ul {
+    margin-left: 500px;
+}
+
+.center-logo-below-menu .header-bottom .tg-container {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+}
+
+#site-navigation ul li a {
+    text-transform: uppercase;
+    padding: 1em 1em 1em;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#bottom-footer {
+    padding: 20px 0;
+    background-color: #aece89;
+}
+
+#bottom-footer .copyright-text a {
+    color: #30AFB8;
+}
+
+.tg-container h1{
+	font-family:  "Barlow", monospace !important;
+}
+
+#site-navigation ul li a:hover{
+	color: #ffffff;
+}
+
+#site-navigation ul li:hover > a, #site-navigation ul li.current-menu-item > a, #site-navigation ul li.current_page_item > a {
+    color: #ffff;
+}
